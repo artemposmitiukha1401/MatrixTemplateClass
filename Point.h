@@ -15,30 +15,6 @@ class Point {
     int GetY() const { return y; }
 
 };
-
-inline Point & Point::operator+=(int value) {
-    this->x += value;
-    this->y += value;
-    return *this;
-}
-
-inline Point & Point::operator-=(int value) {
-    this->x -= value;
-    this->y -= value;
-    return *this;
-}
-
-inline Point & Point::operator/=(int value) {
-    this->x /= value;
-    this->y /= value;
-    return *this;
-}
-
-inline Point & Point::operator*=(int value) {
-    this->x *= value;
-    this->y *= value;
-    return *this;
-}
-
 #endif
+
 

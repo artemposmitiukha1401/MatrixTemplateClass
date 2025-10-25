@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(matrix_template_class main.cpp
         Matrix.h
-        Point.h)
+        Point.h
+        Point.cpp)
